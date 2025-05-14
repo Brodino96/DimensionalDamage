@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dimensionaldamage",
+  "version": "${version}",
+  "name": "DimensionalDamage",
+  "description": "A mod that blocks any type of damage from specific dimensions",
+  "authors": [
+    {
+      "name": "Brodino",
+      "contact": {
+        "homepage": "https://brodino.dev"
+      }
+    }
+  ],
+  "contact": {
+    "sources": "https://github.com/Brodino96/DimensionalDamage",
+    "issues": "https://github.com/Brodino96/DimensionalDamage/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dimensionaldamage/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.brodino.dimensionaldamage.Dimensionaldamage"
+    ]
+  },
+  "mixins": [
+    "dimensionaldamage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
