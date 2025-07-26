@@ -2,11 +2,8 @@ package net.brodino.dimensionaldamage;
 
 import net.brodino.dimensionaldamage.Config;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.ArrayList;
 
 public class Dimensionaldamage implements ModInitializer {
     public static final String MOD_ID = "dimensionaldamage";
