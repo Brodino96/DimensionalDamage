@@ -21,7 +21,7 @@
   "environment": "server",
   "entrypoints": {
     "main": [
-      "net.brodino.dimensionaldamage.Dimensionaldamage"
+      "net.brodino.dimensionaldamage.DimensionalDamage"
     ]
   },
   "mixins": [

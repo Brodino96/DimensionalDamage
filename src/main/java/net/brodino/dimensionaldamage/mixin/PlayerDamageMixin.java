@@ -1,6 +1,6 @@
 package net.brodino.dimensionaldamage.mixin;
 
-import net.brodino.dimensionaldamage.Dimensionaldamage;
+import net.brodino.dimensionaldamage.DimensionalDamage;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.Identifier;
@@ -19,7 +19,7 @@ class PlayerDamageMixin {
 
         Identifier currentDimension = player.getWorld().getRegistryKey().getValue();
 
-        if (!Dimensionaldamage.CONFIG.dimensions().contains(currentDimension.toString())) {
+        if (!DimensionalDamage.CONFIG.dimensions().contains(currentDimension.toString())) {
             return;
         }
 
